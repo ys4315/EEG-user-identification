@@ -5,6 +5,8 @@ This repository is for paper "EEG-based user identification system using 1D-conv
 
 EEG data was resampled using a sliding window in matlab data preprocessing and stored in mat files, which can be read in python with h5py library. In the paper, a 3-fold cross-validation was performed, therefore, 12 out of 14 data collection sessions were evenly divided into 3 groups. During cross-validation, 2 out of 3 groups were used for training and the other one was used only for testing.
 
+The code was tested on Tensorflow 1.10.0.
+
 Please refer to the paper for more details:
 
 @article{
